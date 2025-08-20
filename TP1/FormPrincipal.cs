@@ -6,5 +6,10 @@ namespace TP1
         {
             InitializeComponent();
         }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            lstNombres.Items.Add("Enzo Vinella Cuello");
+        }
     }
 }
