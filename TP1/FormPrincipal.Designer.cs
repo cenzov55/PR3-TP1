@@ -63,6 +63,7 @@
             btnEjercicio1.TabIndex = 2;
             btnEjercicio1.Text = "EJERCICIO 1";
             btnEjercicio1.UseVisualStyleBackColor = false;
+            btnEjercicio1.Click += btnEjercicio1_Click;
             // 
             // FormPrincipal
             // 
@@ -73,6 +74,7 @@
             Controls.Add(lstNombres);
             Controls.Add(lblIntegrantes);
             Name = "FormPrincipal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Formulario Principal";
             Load += FormPrincipal_Load;
             ResumeLayout(false);

@@ -11,5 +11,12 @@ namespace TP1
         {
             lstNombres.Items.Add("Enzo Vinella Cuello");
         }
+
+        private void btnEjercicio1_Click(object sender, EventArgs e)
+        {
+            Form formEjercicio1 = new FormEjercicio1(this);
+            formEjercicio1.Show();
+            this.Hide();
+        }
     }
 }
